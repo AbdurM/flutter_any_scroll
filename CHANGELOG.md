@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* The first version. Scrolls both horizontally and vertically.
+* Initial Release. Scrolls both horizontally and vertically. Shifted the code from my personal project.

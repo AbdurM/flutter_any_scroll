@@ -4,21 +4,15 @@ A Flutter widget that lets you scroll both horizontally and vertically. Original
 
 ## Example
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+![](gif/any_scroll_example.gif)
 
-## Usage
+## Example Usage
 
 AnyScroll(
     mainAxisCount: 5,
     crossAxisCount: 5,
     crossAxisSpacing: 5,
-    header: const CategoriesHeader(),
-    children: categoryCells,
+    header: const SampleHeader(),
+    children: sampleListViewItems,
 );
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
