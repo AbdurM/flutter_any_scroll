@@ -17,7 +17,7 @@ FlutterAnyScroll(
 );
 ```
 
-## Contact me
- LinkedIn: linkedin.com/in/knowabdur
- Twitter: @Abdur_Developer
-
+## About author
+<a class="github-button" href="https://linkedin.com/in/knowabdur" aria-label="LinkedIn">LinkedIn</a>
+<a class="github-button" href="https://github.com/AbdurM" aria-label="GitHub">GitHub</a>
+<a class="github-button" href="https://twitter.com/Abdur_Developer" aria-label="Twitter @Abdur_Developer">Twitter @Abdur_Developer</a>
