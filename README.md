@@ -3,8 +3,8 @@
 A Flutter widget that lets you scroll both horizontally and vertically. Originally written for my personal project, trying to contribute a little to the great flutter community.
 
 ## Example
+![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/gif/any_scroll_example.gif)
 
-https://github.com/AbdurM/flutter_any_scroll/blob/main/gif/any_scroll_example.gif
 
 ## Example Usage
 ```dart
