@@ -6,8 +6,24 @@
 * Originally written for my personal project. Trying to contribute a little to the amazing flutter community. :-)
 * Abdur Mohammed | Senior Software Engineer | Sydney, Australia
 
-## Example (from my personal app)
-![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/gif/any_scroll_example.gif)
+## Demo
+
+### mobile
+
+![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_iPhone.gif)
+
+### mac
+
+![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_mac.gif)
+
+
+### web
+
+![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_web.png)
+
+### Personal app
+
+![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_example.gif)
 
 
 ## Example Usage

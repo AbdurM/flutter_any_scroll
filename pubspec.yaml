@@ -1,6 +1,6 @@
 name: flutter_any_scroll
 description: Scroll both horizontally and vertically. Use it just like you would use a list view except that you've to add a few more properties as described in the example in the readme. 
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/AbdurM/flutter_any_scroll
 
 environment:

@@ -7,3 +7,8 @@
 * Improved readme file
 * Added more documentation
 * Added better description
+
+## 0.0.3
+
+* Updated example to support desktop and web.
+* Added more demos.
