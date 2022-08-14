@@ -6,18 +6,18 @@
 * Originally written for my personal project. Trying to contribute a little to the amazing flutter community. :-)
 * Abdur Mohammed | Senior Software Engineer | Sydney, Australia
 
-## Demo
+## Demos
 
-### mobile
+### Mobile
 
 ![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_iPhone.gif)
 
-### mac
+### Desktop
 
 ![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_mac.gif)
 
 
-### web
+### Web
 
 ![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/demo/any_scroll_web.png)
 
