@@ -1,8 +1,12 @@
 # Any Scroll
 
-A Flutter widget that lets you scroll both horizontally and vertically. Originally written for my personal project, trying to contribute a little to the great flutter community.
+* A Flutter widget that lets you scroll both horizontally and vertically. 
+* Works on iOS, Android, Mac, Windows and Web. 
+* Use it just like you'd use a list view. 
+* Originally written for my personal project. Trying to contribute a little to the amazing flutter community. :-)
+* Abdur Mohammed | Senior Software Engineer | Sydney, Australia
 
-## Example
+## Example (from my personal app)
 ![Screenshot](https://github.com/AbdurM/flutter_any_scroll/blob/main/gif/any_scroll_example.gif)
 
 

@@ -32,7 +32,7 @@ dependencies:
   flutter_any_scroll:
     path: ../
   google_fonts: ^3.0.1
-  http: ^0.13.4
+  http: ^0.13.5
 
 
 
