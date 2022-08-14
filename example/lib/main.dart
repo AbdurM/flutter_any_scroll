@@ -1,3 +1,4 @@
+import 'package:example/custom_scroll_behavior.dart';
 import 'package:example/gateway.dart';
 import 'package:example/image_cell.dart';
 import 'package:example/picsum_image.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Any Scroll Demo Home Page'),
+      scrollBehavior: CustomScrollBehavior(),
     );
   }
 }
