@@ -13,7 +13,7 @@
 * Updated example to support desktop and web.
 * Added more demos.
 
-## 0.2.0
+## 0.0.4
 
 * Improved code quality.
 * Made changes as per latest flutter standards.
