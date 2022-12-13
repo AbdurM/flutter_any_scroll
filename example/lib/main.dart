@@ -11,7 +11,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({super.key, required this.title});
 
   final String title;
 
@@ -39,15 +39,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final _gateway = Gateway();
 
-  void getImages() async {
+  Future<void> getImages() async {
     final rawImages = await _gateway.getImages();
-    for (var value in rawImages) {
-      _images.add(ImageCell(
-        picsumImage: PicSumImage.fromJson(value as Map<String, dynamic>),
-      ));
-    }
     setState(() {
-      _images;
+      for (final value in rawImages) {
+        _images.add(
+          ImageCell(
+            picsumImage: PicSumImage.fromJson(value as Map<String, dynamic>),
+          ),
+        );
+      }
     });
   }
 
@@ -64,15 +65,16 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.white70,
             ),
             child: Padding(
-              padding: EdgeInsets.only(top: 50, bottom: 10),
+              padding: const EdgeInsets.only(top: 50, bottom: 10),
               child: Center(
                 child: Text(
                   'Any scroll demo',
                   style: GoogleFonts.caesarDressing(
                     textStyle: const TextStyle(
-                        color: Colors.black,
-                        fontSize: 45,
-                        fontWeight: FontWeight.bold),
+                      color: Colors.black,
+                      fontSize: 45,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),

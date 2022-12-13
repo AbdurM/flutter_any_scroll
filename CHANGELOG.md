@@ -12,3 +12,7 @@
 
 * Updated example to support desktop and web.
 * Added more demos.
+
+## 0.2.0
+
+* Improved code quality.

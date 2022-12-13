@@ -4,16 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
-///Lets you scroll the list both horizontally and vertically. Takes a list of widget as a child.
+///Lets you scroll the list both horizontally and vertically.
+//Takes a list of widget as a child.
 class FlutterAnyScroll extends StatelessWidget {
   const FlutterAnyScroll({
-    Key? key,
+    super.key,
     required this.children,
     required this.crossAxisCount,
     required this.mainAxisCount,
     required this.crossAxisSpacing,
     this.header,
-  }) : super(key: key);
+  });
 
   ///Provide the list of widgets that you want to display
   final List<Widget> children;
@@ -62,12 +63,11 @@ class FlutterAnyScroll extends StatelessWidget {
 
 class _CoreContent extends StatelessWidget {
   const _CoreContent({
-    Key? key,
     required this.crossAxisCount,
     required this.mainAxisCount,
     required this.crossAxisSpacing,
     required this.children,
-  }) : super(key: key);
+  });
 
   final int crossAxisCount;
   final double mainAxisCount;
