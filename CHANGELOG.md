@@ -16,3 +16,5 @@
 ## 0.2.0
 
 * Improved code quality.
+* Made changes as per latest flutter standards.
+* Improved example code.
