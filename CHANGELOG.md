@@ -18,3 +18,9 @@
 * Improved code quality.
 * Made changes as per latest flutter standards.
 * Improved example code.
+
+## 0.0.5
+
+* Updated dependencies.
+* Made changes as per latest flutter standards.
+* Updated example dependencies.
